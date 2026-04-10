@@ -1,0 +1,24 @@
+{
+  "service": "core-engine",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "metrics": {
+    "cpu_usage_percent": 15.2,
+    "memory_usage_mb": 512,
+    "active_threads": 10,
+    "requests_per_minute": 60
+  },
+  "dependencies": {
+    "database": {
+      "status": "connected",
+      "latency_ms": 5
+    },
+    "message_queue": {
+      "status": "healthy",
+      "queue_size": 100
+    }
+  },
+  "alerts": []
+}
